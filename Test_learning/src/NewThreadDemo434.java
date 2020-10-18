@@ -1,4 +1,4 @@
-public class    NewThreadDemo434 {
+public class NewThreadDemo434 {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("The beginning of execution program");
         Thread t =new Thread(new Runnable() {
