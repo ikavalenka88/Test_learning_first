@@ -59,7 +59,7 @@ public class MyFrame extends JFrame implements ActionListener {
         animals=new JMenuItem[cyrNames.length];
         for (int k=0;k<engNames.length;k++){
             imgs[k]=new ImageIcon("D:/Download from Google/image for java/"+engNames[k]+".jpg");
-            files[k]="file://D:/Download from Google/image for java/"+engNames[k]+".txt";
+            files[k]="file:///D:/Download from Google/image for java/"+engNames[k]+".txt";
         }
         tb=new JToolBar("The Menu panel");
         exitBtn=new MyButton585("exit.png");
